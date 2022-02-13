@@ -1,0 +1,53 @@
+body {
+  background-color: #ccffff;
+  width: 1200px;
+  max-width:90%;
+  margin: auto;
+  padding: 0;
+}
+
+p {
+  color:navy;
+}
+
+h1 {
+	text-align: center;
+}
+
+.postnumber {
+	color:black;
+  padding:0px;
+  margin:0px;
+
+}
+.postnumber:hover {
+	color:red;
+}
+
+#form-container {
+  display:flex;
+  flex-direction:column;
+  width:303px;
+  margin:auto;
+}
+
+#name-input {
+  margin:auto;
+  padding-bottom:1px;
+  width:100%;
+  height:2em;
+}
+#post-input {
+  width:100%;
+  padding-bottom:1px;
+  margin:auto;
+  height:4em;
+}
+.h-captcha {
+  margin:auto;
+}
+
+#form-container input {
+  margin:auto;
+  width:6em;
+}
